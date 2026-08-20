@@ -1,0 +1,29 @@
+# Pinned to the versions this course was written and tested against.
+# Install everything up front:  pip install -r requirements.txt
+
+# ---- Core (Day 01 onwards) -------------------------------------------------
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+pydantic==2.13.4
+pydantic-settings==2.15.0
+email-validator==2.3.0
+python-dotenv==1.2.3
+
+# ---- Persistence (Day 09 onwards) ------------------------------------------
+SQLAlchemy==2.0.52
+alembic==1.19.1
+aiosqlite==0.22.1
+
+# ---- Forms, uploads, templates (Day 19) ------------------------------------
+python-multipart==0.0.32
+Jinja2==3.1.6
+
+# ---- Auth (Day 15 onwards) -------------------------------------------------
+PyJWT==2.13.0
+passlib[bcrypt]==1.7.4
+
+# ---- Testing (Day 17, used from Day 01) ------------------------------------
+httpx==0.28.1
+pytest==9.1.1
+pytest-asyncio==1.4.0
+pytest-cov==7.1.0
